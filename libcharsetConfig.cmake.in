@@ -1,0 +1,12 @@
+#
+# Use file for libcharset. Auto-generated, any change here might be overwritten
+# without any warning.
+#
+
+set(libcharset_SOURCE_DIR "@libcharset_SOURCE_DIR@")
+set(libcharset_BINARY_DIR "@libcharset_BINARY_DIR@")
+set(libcharset_LIBRARIES "@libcharset_TARGETS@")
+
+if(EXISTS "@libcharset_TARGETS_FILE@"  )
+  include("@libcharset_TARGETS_FILE@")
+endif()
